@@ -1,0 +1,16 @@
+Adrián López Gude 
+
+PRÁCTICA 2: Análisis sintáctico
+
+
+Antes de empezar a contemplar aspectos sobre mi código, merece la pena destacar que al cambiar de dispositivo a uno con sistema operativo macOS, 
+en la línea 9 del Makefile que adjunto tuve que activar la opción -ll y no -lfl como venía por defecto. Sin eso me daba error al compilar.
+
+Para la realización de la práctica se contemplaron los siguientes aspectos: 
+
+Aspectos de la práctica:
+·El programa detecta el final de fichero por lo tanto no se validarán dos xml en el mismo archivo 
+·Las cabeceras pueden empezar por cualquier tipo de caracter mientras se cumpla el formato de <> y </> de xml 
+·Si entre los dos corchetes <> y </> que definen las etiquetes se introducen dos palabras separadas por espacios o tabuladores, saltará expeción
+·Obligatoria la primera linea del xml tiene que empezar por "<?xml version="1.0" encoding="UTF-8"?>". Saltará un error si hay dos lineas iguales a dicha inicial
+
