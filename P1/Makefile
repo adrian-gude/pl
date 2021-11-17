@@ -1,4 +1,4 @@
-FUENTE = p1
+FUENTE = practica1
 PRUEBA = proba.txt
 
 all: compile
