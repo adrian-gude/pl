@@ -3,7 +3,7 @@ Adrián López Gude
 PRÁCTICA 1: ANÁLISIS LÉXICO
 
 Antes de empezar a contemplar aspectos sobre mi código, merece la pena destacar que al cambiar de dispositivo a uno con sistema operativo macOS, 
-en la línea 8 del Makefile que adjunto tuve que activar la opción -ll y no -lfl como venía por defecto. Sin eso no me daba error al compilar. 
+en la línea 8 del Makefile que adjunto tuve que activar la opción -ll y no -lfl como venía por defecto. Sin eso me daba error al compilar. 
 
 Para la realización de la práctica se contemplaron los siguientes aspectos: 
 
