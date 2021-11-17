@@ -1,0 +1,14 @@
+Adrián López Gude 
+
+PRÁCTICA 1: ANÁLISIS LÉXICO
+
+Antes de empezar a contemplar aspectos sobre mi código, merece la pena destacar que al cambiar de dispositivo a uno con sistema operativo macOS, 
+en la línea 8 del Makefile que adjunto tuve que activar la opción -ll y no -lfl como venía por defecto. Sin eso no me daba error al compilar. 
+
+Para la realización de la práctica se contemplaron los siguientes aspectos: 
+
+Aspectos de la práctica:
+· Una palabra mayúscula definida como “capitalWord” se considera siempre y cuando todas las letras que la compongan sean letras mayúsculas. Ej: HOLA 
+· Una palabra minúscula  definida como “minuslWord” se considera siempre y cuando todas las letras que la compongan sean letras minúsculas. Ej: hola
+· Una palabra es considerada como toda aquella secuencia de caracteres que están entre dos espacios, pueden contener guiones o números entre las mismas. Ej a2ki?-7)
+· Se contempla también el caso de uso para una palabra que tenga el caracter tilde "´" tanto mayúscula como minúscula.
