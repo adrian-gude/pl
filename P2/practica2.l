@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "p2.tab.h"	
+#include "practica2.tab.h"	
 
 
 void subString(char *cont, int min){

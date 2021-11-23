@@ -12,6 +12,7 @@ char *errmsg = "Error";
 //sin start te envian cabeceras 
 //cabecera sin final tiene que saltar error 
 //start en mitad de una sentencia 
+//cabcera start y </algo> que de error
 
 %error-verbose
 %token <valString> START STARTHEADER ENDHEADER ENDFILE
@@ -20,7 +21,8 @@ char *errmsg = "Error";
 %%
 S :	START root ENDFILE{printf("Corerect XML Document\n");return 0;}
 	| START root root {printf("There cannot be more than one root\n");return 0;}
-	| START {printf("Corerect XML Document\n");return 0;}   
+	| START {printf("Corerect XML Document\n");return 0;}  
+	| START ENDHEADER {printf("Error there cannot endheader\n");return 0;} 
 	;
 	
 root : STARTHEADER body ENDHEADER {if(strcmp($1, $3) == 0){ $$ = $2;} else { printf("Error: init header label doesn't match final header, on line %d, expected %s, but there was %s\n", yylineno-1, $1, $3);return 0;}}
