@@ -1,0 +1,16 @@
+[
+    {
+      "name": "CoinFLEX (Futures) DFN",
+      "id": "DFN",
+      "market": "CoinFLEX (Futures)",
+      "last": null,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Perpetual Protocol ZIL",
+      "id": "ZIL",
+      "market": "Perpetual Protocol",
+      "is_multi_asset_composite": null,
+      "last": 0.11
+    }
+  ]

@@ -1,0 +1,47 @@
+Adrián López Gude (adrian.lopez.gude@udc.es)
+Juan Andrés Justo Armesto (j.justo.armesto@udc.es)
+
+OBJETIVOS:
+El objetivo principal de nuestra práctica es convertir un JSON, proporcionado mediante la API "CoinGecko", en una tabla HTML. Esto permite automatizar 
+la creación de una vista más ilustrativa para la visualización del propio JSON.
+
+FICHEROS: 
+Los ficheros que componen nuestra práctica son : 
+    - p3.py : Desde este fichero, se realiza las peticiones a la API "CoinGecko" y se obtienen los JSON
+    - p3.l : Analizador léxico de los JSONs anteriormente obtenidos 
+    - p3.y : Analizador sintactico de los JSONs, encargado de generar la tabla HTML 
+    - p3.html : Fichero HTML donde está la tabla 
+    - p3.css : Hoja de estilo del p3.html 
+    - p3ALLJson : Esta carpeta contiene todos los elementos anteriores exceptuando p3.py, conteniendo a mayores todos los jsons de prueba
+                   en caso de no querer ejecutar el .py
+
+INTRUCCIONES COMPILACIÓN/EJECUCIÓN:
+Hemos creado un script de compilación y ejecución Makefile para esta práctica. 
+Hay que tener en cuenta de que en la línea 8/9 está activa el flag -ll y no el -lfl debido a que un integrante tiene un sistema operativo macOS.
+En el Makefile que se encuentra con el p3.py se abrirá un iterativo en terminal el cual se darán opciones al usuario pulsando las teclas del 1-9. 
+Un ejemplo de ejecucion,sería responder con el 1 para abrir la API de coins/markets y volver a pulsar 1 para elegir euros como divisa 
+En el Makefile de la carpeta p3ALLJson será el usuario encargado de actualizar los JSON manualemente con varios ejemplos ya dados.
+
+ANALIZADOR LÉXICO:
+Hemos considerado los corchetes, llaves, comas y dos puntos como elementos fundamentales de JSON, por lo que son pasados individualmente a la gramática (p3.y). 
+Se tienen en cuenta las URLs de imágenes que se identifican con IMAGE para hacer la tabla más visual una vez se realice en el análisis sintáctico
+
+ANALIZADOR SINTÁCTICO:
+En este fichero (p3.y) se encuentra nuestra gramática que contiene el generador HTML. Como requisito para que nuestra gramática funcione el JSON debe
+empezar por corchetes y no debe contener alto nivel de recursividad (así se evita que la tabla tenga en sus subtablas y sublistas, otras tablas y listas)
+
+El axioma inicial de la gramatica es un no terminal denominado json , que gerena el no terminal array, por lo que  únicamente se admiten json que
+estan entre corchetes [] (LEFTBRAC, RIGHTBRAC). Tener en cuenta que las estructuras array, disponen los elementos internos en forma de lista.
+La estructura que tiene llaves (token object), dispone sus elementos internos en forma de tabla, cada sub elemento tendra una clave (STRING) y un
+valor (VALUE) que están en el no terminal member,las claves deben disponerse en la misma forma, la primera estructura llaves {} definirá las claves
+del resto de estructuras {}, las claves deben estar ordenadas en el JSON como las de la primera estructura {} y tener la misma cantidad (mismo orden y misma cantidad),
+en caso contrario, se retornará un error (un ejemplo puede ser en la carpeta p3AllJson el make con el fichero keyError.json, que retorna error indicando que las key tienen que estar en el mismo orden)
+(En el fichero sartError.json de esa misma carpeta, a pesar de ser igual retorna error en el inicio, diciendo que la primera linea, linea 0, tiene un comienzo no deseado).
+Los valores pueden ser de diferentes tipos, los strings, si empiezan y acaban por comillas dobles, se eliminan el primer y último caracter de la cadena del string 
+(si un string es "" pasará a ser el vacío).
+Las imagenes son valores los cuales se tratan de forma específica como un elemento imagen de HTML.
+
+CONCLUSIÓN
+La utilidad de nuestra práctica reside en parsear ciertos JSONs (los que empiecen por []), a una tabla HTML, mostrando los mismos datos, pero de
+una manera mucho más intuitiva. Podría resultar especialmente útil en JSONs muy largos que requieran de ser mirados con frecuencia. Hemos elegido 
+el API de CoinGecko para el desarrollo, porque creemos que las criptomonedas están a la orden del día y realmente nos parece un tema interesante.

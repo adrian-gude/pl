@@ -1,0 +1,352 @@
+[
+    {
+      "name": "CoinFLEX (Futures) DFN",
+      "id": "DFN",
+      "market": "CoinFLEX (Futures)",
+      "last": null,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Perpetual Protocol ZIL",
+      "id": "ZIL",
+      "market": "Perpetual Protocol",
+      "last": 0.11,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bibox (Futures) LINK",
+      "id": "LINK",
+      "market": "Bibox (Futures)",
+      "last": 0.11,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "CME Bitcoin Futures BTC",
+      "id": "BTC",
+      "market": "CME Bitcoin Futures",
+      "last": 0.11,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "Bibox (Futures) XRP",
+      "id": "XRP",
+      "market": "Bibox (Futures)",
+      "last": 0.11,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bibox (Futures) AXS",
+      "id": "AXS",
+      "market": "Bibox (Futures)",
+      "last": 0.11,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "ZBG Futures BSV",
+      "id": "BSV",
+      "market": "ZBG Futures",
+      "last": 0.11,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "MEXC Global (Futures) ATLAS",
+      "id": "ATLAS",
+      "market": "MEXC Global (Futures)",
+      "last": 4.5436,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "CoinFLEX (Futures) BCHABC",
+      "id": "BCHABC",
+      "market": "CoinFLEX (Futures)",
+      "last": 0,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Prime XBT USDC",
+      "id": "USDC",
+      "market": "Prime XBT",
+      "last": 0,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bibox (Futures) ETC",
+      "id": "ETC",
+      "market": "Bibox (Futures)",
+      "last": 0,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "MyCoinStory SUN",
+      "id": "SUN",
+      "market": "MCS",
+      "last": 13.407576375,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bibox (Futures) BSV",
+      "id": "BSV",
+      "market": "Bibox (Futures)",
+      "last": 13.407576375,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bibox (Futures) EOS",
+      "id": "EOS",
+      "market": "Bibox (Futures)",
+      "last": 13.407576375,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "GMO Japan (Futures) BTC",
+      "id": "BTC",
+      "market": "GMO Japan (Futures)",
+      "last": 13.407576375,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "GMO Japan (Futures) BCH",
+      "id": "BCH",
+      "market": "GMO Japan (Futures)",
+      "last": 13.407576375,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "GMO Japan (Futures) ETH",
+      "id": "ETH",
+      "market": "GMO Japan (Futures)",
+      "last": 13.407576375,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "GMO Japan (Futures) XRP",
+      "id": "XRP",
+      "market": "GMO Japan (Futures)",
+      "last": 13.407576375,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "CoinFLEX (Futures) D",
+      "id": "D",
+      "market": "CoinFLEX (Futures)",
+      "last": 13.407576375,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": ".DENEARUSDT",
+      "id": "DENEARUSDT",
+      "market": "Delta Exchange (Futures)",
+      "last": 10.1142,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bibox (Futures) SUSHI",
+      "id": "SUSHI",
+      "market": "Bibox (Futures)",
+      "last": 10.1142,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "FMex ETH",
+      "id": "ETH",
+      "market": "FMex",
+      "last": 10.1142,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bibox (Futures) ATOM",
+      "id": "ATOM",
+      "market": "Bibox (Futures)",
+      "last": 10.1142,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Prime XBT EOS",
+      "id": "EOS",
+      "market": "Prime XBT",
+      "last": 10.1142,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "Prime XBT USDT",
+      "id": "USDT",
+      "market": "Prime XBT",
+      "last": 10.1142,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bitcoin",
+      "id": "BTC",
+      "market": "FTX (Derivatives)",
+      "last": 47278.6943206182,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "dYdX Perpetual (L1) WETH",
+      "id": "WETH",
+      "market": "dYdX Perpetual (L1)",
+      "last": 47278.6943206182,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bibox (Futures) BCH",
+      "id": "BCH",
+      "market": "Bibox (Futures)",
+      "last": 47278.6943206182,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "Bibox (Futures) UNI",
+      "id": "UNI",
+      "market": "Bibox (Futures)",
+      "last": 47278.6943206182,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "Delta Exchange ADA",
+      "id": "ADA",
+      "market": "Delta Exchange (Futures)",
+      "last": 0.00000509,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Delta Exchange BCH",
+      "id": "BCH",
+      "market": "Delta Exchange (Futures)",
+      "last": 315.526644,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "ETHG20",
+      "id": "ETHG20",
+      "market": "BTSE (Futures)",
+      "last": 223.409277154,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Prime XBT LTC",
+      "id": "LTC",
+      "market": "Prime XBT",
+      "last": 223.409277154,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "Prime XBT LINK",
+      "id": "LINK",
+      "market": "Prime XBT",
+      "last": 223.409277154,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": ".DEDYDXUSDT",
+      "id": "DEDYDXUSDT",
+      "market": "Delta Exchange (Futures)",
+      "last": 14.895,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bibox (Futures) KSM",
+      "id": "KSM",
+      "market": "Bibox (Futures)",
+      "last": 14.895,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bibox (Futures) LTC",
+      "id": "LTC",
+      "market": "Bibox (Futures)",
+      "last": 14.895,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "Stormgain Futures QTUM",
+      "id": "QTUM",
+      "market": "Stormgain Futures",
+      "last": 8.855,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "GMO Japan (Futures) LTC",
+      "id": "LTC",
+      "market": "GMO Japan (Futures)",
+      "last": 8.855,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "CoinFLEX (Futures) XBT",
+      "id": "XBT",
+      "market": "CoinFLEX (Futures)",
+      "last": 8.855,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "Bitflyer (Futures) BTC",
+      "id": "BTC",
+      "market": "Bitflyer (Futures)",
+      "last": 8.855,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "Bitmart Futures HT",
+      "id": "HT",
+      "market": "Bitmart Futures",
+      "last": 3.881011111111,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bitmart Futures ETC",
+      "id": "ETC",
+      "market": "Bitmart Futures",
+      "last": 5.564,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Bibox (Futures) FIL",
+      "id": "FIL",
+      "market": "Bibox (Futures)",
+      "last": 5.564,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "MCS ADA",
+      "id": "ADA",
+      "market": "MCS",
+      "last": 1.22708904985449,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "Prime XBT XRP",
+      "id": "XRP",
+      "market": "Prime XBT",
+      "last": 1.22708904985449,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "Bibox (Futures) BTC",
+      "id": "BTC",
+      "market": "Bibox (Futures)",
+      "last": 1.22708904985449,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "XMRG20",
+      "id": "XMRG20",
+      "market": "BTSE (Futures)",
+      "last": 68.583952985,
+      "is_multi_asset_composite": null
+    },
+    {
+      "name": "ETHX19",
+      "id": "ETHX19",
+      "market": "BTSE (Futures)",
+      "last": 127.299916665,
+      "is_multi_asset_composite": false
+    },
+    {
+      "name": "BBCXG20",
+      "id": "BBCXG20",
+      "market": "BTSE (Futures)",
+      "last": 114.91,
+      "is_multi_asset_composite": true
+    }
+  ]
